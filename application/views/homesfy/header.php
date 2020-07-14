@@ -22,16 +22,22 @@ if (!empty($css)) {
 	<a class="navbar-brand" href="/">
 		<img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/HomesfyDarkModeLogo.svg">
 	</a>
-    <div class="searchCommon">
-        <div class="searchCombo">
-            <div class="d-flex justify-content-center">
-                <div role="combobox" aria-haspopup="listbox" aria-owns="react-autowhatever-1" aria-expanded="false" class="react-autosuggest__container"><input type="text" autocomplete="off" aria-autocomplete="list" aria-controls="react-autowhatever-1" class="react-autosuggest__input" placeholder="Search By location, Builder Or Project" value="">
-                    <div id="react-autowhatever-1" role="listbox" class="react-autosuggest__suggestions-container"></div>
-                </div>
-                <div class="input-group-append"><button class="input-group btn text-white">Search</button></div>
-            </div>
-        </div>
-    </div>
+	<?php 
+		$link = $_SERVER['REQUEST_URI'];
+		if($link != "/homesfy/"){
+		echo '<div class="searchCommon">
+		        <div class="searchCombo">
+		            <div class="d-flex justify-content-center">
+		                <div role="combobox" aria-haspopup="listbox" aria-owns="react-autowhatever-1" aria-expanded="false" class="react-autosuggest__container"><input type="text" autocomplete="off" aria-autocomplete="list" aria-controls="react-autowhatever-1" class="react-autosuggest__input" placeholder="Search By location, Builder Or Project" value="">
+		                    <div id="react-autowhatever-1" role="listbox" class="react-autosuggest__suggestions-container"></div>
+		                </div>
+		                <div class="input-group-append"><button class="input-group btn text-white">Search</button></div>
+		            </div>
+		        </div>
+		    </div>';
+		} 
+	?>
+    
     <div class="collapse navbar-collapse justify-content-end" id="navbarText">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link text-white"  href=<?=$base_url?>>Home</a></li>
@@ -41,4 +47,5 @@ if (!empty($css)) {
         </ul>
     </div>
 </nav>
+
 <body>
