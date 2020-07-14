@@ -1,0 +1,24 @@
+<section class="w-100 mt-5 mb-5">
+    <div class="container">
+        <div class="mb-4 Title">Terms and conditions</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p><b>This portal is for guidance only. It does not constitute part of an offer or contract. Design and specifications are subject to change without prior notice. Computer-generated images are the artist's impression and are indicative of the actual designs.</b></p>
+            </div>
+        </div>
+        <ul>
+            <li><b>Terms and condition</b><br>The visitor of Homesfy - Craft Financial Advisors Pvt. Ltd using this portal means that users have gone through and agreed to abide by following disclaimer, terms, and conditions.</li>
+            <li><b>No warranty</b><br>To note that the information /statement provided on Homesfy - Craft Financial Advisors Pvt. Ltd website is reasonably based on expected information. However, Homesfy - Craft Financial Advisors Pvt. Ltd does not guarantee its accuracy, correctness, completeness or suitability whatsoever for any purpose. As such the database provided is without any warranty, express or implied, as to their legal effect.</li>
+            <li><b>No liability to Homesfy - Craft Financial Advisors Pvt. Ltd</b><br>Though, Homesfy - Craft Financial Advisors Pvt. Ltd has taken proper care/precautions to make the database reliable, Homesfy - Craft Financial Advisors Pvt. Ltd will not be held responsible for any liability that may arise out of any error in the database. Use of any information/statements on Homesfy - Craft Financial Advisors Pvt. Ltd web site shall be at your own risk. All information/statements should be used in accordance with applicable laws. Homesfy - Craft Financial Advisors Pvt. Ltd does not undertake any kind of liability whatsoever for the same. Homesfy - Craft Financial Advisors Pvt. Ltd disclaims all responsibility for any loss, injury, liability or damage of any kind resulting from and arising out of your use of the site.</li>
+            <li><b>Other terms and conditions</b><br>Homesfy - Craft Financial Advisors Pvt. Ltd makes no representations about the timeliness of the services contained on the Homesfy customer information portal for any purpose. Homesfy - Craft Financial Advisors Pvt. Ltd makes no representations about the suitability, reliability, availability, of the services contained on the Homesfy customer information portal for any purpose.</li>
+            <li>Homesfy - Craft Financial Advisors Pvt. Ltd shall not be responsible if any information/ statement / certificate / page is printed/downloaded from Homesfy’s customer information portal and after printing/downloading complete/partial text/information is altered / removed / obscured contained therein.</li>
+            <li>Homesfy - Craft Financial Advisors Pvt. Ltd, at no event, be liable/ responsible for any direct, indirect, disciplinary, incidental, special, consequential damages or any damages whatsoever including, without limitation, damages for loss of use, data or profits, arising out of or in any way connected with the use of the Homesfy - Craft Financial Advisors Pvt. Ltd's customer</li>
+            <li><b>information portal. </b><br>Homesfy - Craft Financial Advisors Pvt. Ltd, at no event, be liable/ responsible for any direct, indirect, punitive, incidental, special, consequential damages or any damages for the delay or inability to use the Homesfy - Craft Financial Advisors Pvt. Ltd customer information portal, or failure to provide services, or for any information, data, statement and any other services obtained through the Homesfy - Craft Financial Advisors Pvt. Ltd customer information portal, or otherwise arising out of the use of Homesfy - Craft Financial Advisors Pvt. Ltd customer information portal.</li>
+            <li>Certain services, such as a statement of accounts depend on a continuous connection to the Homesfy’s database. Homesfy - Craft Financial Advisors Pvt. Ltd makes no assurance, representation, promise whatsoever that such connectivity will always be available.</li>
+            <li>Homesfy - Craft Financial Advisors Pvt. Ltd reserves the right to suspend these services if in Homestays opinion security of the customer information portal or of the data could be compromised.</li>
+            <li>Homesfy - Craft Financial Advisors Pvt. Ltd may also suspend services on the customer information portal for any customer at its sole discretion without assigning any reason whatsoever. In such an event user shall contact Homesfy - Craft Financial Advisors Pvt. Ltd offices for any clarification.</li>
+        </ul>
+    </div>
+</section>
