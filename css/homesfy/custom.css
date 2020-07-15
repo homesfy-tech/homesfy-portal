@@ -173,7 +173,7 @@ body{
 }
 .searchContainer{
     /*background: linear-gradient(180deg,#f39935,#df293a);*/
-    background-image: url('https://s3.ap-south-1.amazonaws.com/homesfy.in/common/Banner.jpg');
+    background-image: url('https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/banner.jpg');
     background-repeat: no-repeat;
     /*background-position:top;*/
     background-attachment: fixed;
@@ -217,7 +217,7 @@ img.City {
     top: 9%;
 }
 .MagnetCity {
-    background: url("https://s3.ap-south-1.amazonaws.com/homesfy.in/common/MagnateDesktop.jpg");
+    background: url("https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/magnetDesktop.jpg");
     background-size: auto;
     background-position: 63px center;
     background-repeat: no-repeat;

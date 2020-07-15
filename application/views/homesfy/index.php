@@ -24,23 +24,23 @@
         <div class="container mb-4">
             <div class="row ml-0">
                 <div class="col-md-4">
-                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/RegionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/City/mumbai-city.svg" alt="mumbai" class="City"></div>
+                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/regionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/mumbai-city.svg" alt="mumbai" class="City"></div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/RegionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/City/pune.svg" alt="pune" class="City"></div>
+                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/regionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/pune.svg" alt="pune" class="City"></div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/RegionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/City/bangalore.svg" alt="bangalore" class="City"></div>
+                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/regionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/bangalore.svg" alt="bangalore" class="City"></div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row ml-0">
                 <div class="col-md-4">
-                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/RegionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/City/delhi.svg" alt="delhi" class="City"></div>
+                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/regionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/delhi.svg" alt="delhi" class="City"></div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/RegionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/City/kolkata.svg" alt="kolkata" class="City"></div>
+                    <div class="card border-0"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/regionBg.svg" alt="city-outer" class="w-100"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/city/kolkata.svg" alt="kolkata" class="City"></div>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
         </div>
         <div class="container p-5">
             <div class="row justify-content-end">
-                <div class="col-md-6"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/MagnateMob.jpg" alt="magnetImage" class="w-100 desk-none mb-3">
+                <div class="col-md-6"><img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/home/magnetMob.jpg" alt="magnetImage" class="w-100 desk-none mb-3">
                     <p>If you have strong client relationships, Homesfy offers brokers and other CPs an exciting opportunity to scale up their business in the rapidly growing real estate industry. We facilitate the purchase of real estate in amounts that suits their budgets without the hassle of managing the properties or performing due diligence on them.</p>
                     <ul>
                         <li>We provide pan India reach to our partners which would not be possible for them to cover individually.</li>

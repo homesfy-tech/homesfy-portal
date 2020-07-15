@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="card  p-3 "><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/whyhomesfy.png"></div>
+                <div class="card  p-3 "><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/why-homesfy/1.png"></div>
             </div>
             <div class="col-md-6 pl-5 pr-5">
                 <h5 class="GreenColor"><b>WE UNDERSTAND YOU</b></h5>
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row flex-row-reverse">
             <div class="col-md-6  p-3 ">
-                <div class="card p-3"><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/whyhomesfy2.png"></div>
+                <div class="card p-3"><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/why-homesfy/2.png"></div>
             </div>
             <div class="col-md-6 pl-5 pr-5">
                 <h5 class="GreenColor"><b>WORK WITH THE RIGHT PROFESSIONALS</b></h5>
@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="card  p-3 "><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/whyhomesfy3.png"></div>
+                <div class="card  p-3 "><img class="w-100" src="https://s3.ap-south-1.amazonaws.com/homesfy.in/img/why-homesfy/3.png"></div>
             </div>
             <div class="col-md-6 pl-5 pr-5">
                 <h5 class="GreenColor"><b>YOUR CONVENIENCE IS ALL THAT MATTERS TO US</b></h5>
