@@ -8,7 +8,7 @@ html, body {
 }
 
 body{
-    background: #f9f9f9;
+    background: #fff;
 }
 
 .fs-14{
@@ -30,6 +30,31 @@ body{
 
 .searchHome .react-autosuggest__input{
   height: 40px;
+}
+
+.autocomplete_box{
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+    list-style: none;
+    padding: 0px;
+}
+.searchresult{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 400;
+}
+.selected,.searchresult:hover{
+    background-color: #ddd;
 }
 
 .react-autosuggest__input {
@@ -602,21 +627,24 @@ btn:disabled  {
     height: 100%;
 }
 
-.pagination li{
-    padding: 4px 16px;
-    background-color: #fff;
-    border: 1px solid #e8e3e3;
-    border-radius: 2px; 
-    cursor: pointer;
+.pagination strong{
+  padding: 6px 12px;
+  border: 1px solid #a2a2a2;
+  cursor: pointer;
+  color:#ec1d04;
+  font-weight:400;
 }
+
 .pagination a{
-    color:#333;
+  padding: 6px 12px;
+  border: 1px solid #a2a2a2;
+  background-color: #fff;
+  cursor: pointer;
+  color:#000;
+  font-weight:400; 
 }
-.paginationBlock{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
+.pagination a:hover{
+  text-decoration: none;
 }
 
 .productTitle h4{

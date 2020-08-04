@@ -5,12 +5,13 @@
     <title><?=$title;?></title>
 
     <meta name="description" content="<?=$description;?>" data-react-helmet="true">
-    <meta name="keywords" content="<?=$description;?>" data-react-helmet="true">
+    <meta name="keywords" content="<?=$keywords;?>" data-react-helmet="true">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   	<link href=<?=$base_url."css/assests/fontawesome-free/css/all.min.css"?> rel="stylesheet" type="text/css">
+  	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <?php
 		if (!empty($css)) {
@@ -30,12 +31,20 @@
 	?>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bgCommon sticky-top p-2 homeBorder">
-	<a class="navbar-brand" href="/">
+	<a class="navbar-brand" href=<?=$base_url?>>
 		<img src="https://s3.ap-south-1.amazonaws.com/homesfy.in/common/HomesfyDarkModeLogo.svg">
 	</a>
 	<?php 
+
+		$my_menu=array(
+						array('name'=> 'Home','url'=>''),
+						array('name'=> 'About us','url'=>'about-us'),
+						array('name'=> 'Why homesfy','url'=>'why-homesfy'),
+						array('name'=> 'Contact us','url'=>'contact-us'),
+					);
+
 		$link = $_SERVER['REQUEST_URI'];
-		if($link != "/homesfy/"){
+		if($link != "/homesfy/" && $link != "/homesfy/byob-register" && $link != "/homesfy/byob"){
 		echo '<div class="searchCommon">
 		        <div class="searchCombo">
 		            <div class="d-flex justify-content-center">
@@ -53,10 +62,16 @@
     
     <div class="collapse navbar-collapse justify-content-end" id="navbarText">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link text-white"  href=<?=$base_url?>>Home</a></li>
-            <li class="nav-item "><a class="nav-link text-white" href=<?=$base_url."about-us"?>>About Us</a></li>
-            <li class="nav-item "><a class="nav-link text-white" href=<?=$base_url."why-homesfy"?>>Why Homesfy</a></li>
-            <li class="nav-item "><a class="nav-link text-white" href=<?=$base_url."contact-us"?>>Contact Us</a></li>
+        	<?php 
+        		foreach ($my_menu as $key => $value) {
+        			$current_page = !empty($info) ? $info : '';
+        			$class_name = ($value['name'] === $current_page) ? 'active' : '';
+            		echo '<li class="nav-item '.$class_name.'">
+            				<a class="nav-link text-white" href='.$base_url.$value['url'].'>'.$value['name'].'</a>
+            			</li>';
+        		}
+
+        	?>
         </ul>
     </div>
 </nav>
